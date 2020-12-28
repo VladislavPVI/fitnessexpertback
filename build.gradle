@@ -31,6 +31,9 @@ cuba {
         version = '0.1'
         isSnapshot = true
     }
+    tomcat {
+        port = '3000'
+    }
 }
 
 dependencies {

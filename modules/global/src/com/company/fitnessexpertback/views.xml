@@ -4,10 +4,14 @@
     <view entity="fitnessexpertback_Exercise" name="exercise-view" extends="_local">
         <property name="image" view="_minimal"/>
     </view>
-    <view entity="fitnessexpertback_Workout" name="workout-view" extends="_local"/>
-    <view entity="fitnessexpertback_WorkoutExercise" name="workoutExercise-view" extends="_local">
-        <property name="workout" view="_minimal"/>
-        <property name="exercise" view="_minimal"/>
+    <view entity="fitnessexpertback_Workout" name="workout-view" extends="_local">
+        <property name="image" view="_minimal"/>
     </view>
-
+    <view entity="fitnessexpertback_WorkoutExercise" name="workoutExercise-view" extends="_local">
+        <property name="exercise" view="_minimal">
+            <property name="image" view="_minimal"/>
+            <property name="type"/>
+            <property name="description"/>
+        </property>
+    </view>
 </views>
