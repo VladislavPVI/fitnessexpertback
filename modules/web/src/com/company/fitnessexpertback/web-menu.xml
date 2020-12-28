@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-fitnessexpertback" insertBefore="administration" caption="mainMsg://menu_config.application-fitnessexpertback">
+        <item screen="fitnessexpertback_Exercise.browse"
+              caption="mainMsg://menu_config.fitnessexpertback_Exercise.browse"/>
+        <item screen="fitnessexpertback_Workout.browse"
+              caption="mainMsg://menu_config.fitnessexpertback_Workout.browse"/>
+        <item screen="fitnessexpertback_WorkoutExercise.browse"
+              caption="mainMsg://menu_config.fitnessexpertback_WorkoutExercise.browse"/>
+    </menu>
+</menu-config>
